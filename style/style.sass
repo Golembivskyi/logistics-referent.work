@@ -1,0 +1,568 @@
+@import _variables
+@import _reset-css
+
+#home
+	background-image: url(../img/home.webp)
+	width: 100%
+	max-width: 1920px
+	margin: 0 auto
+	height: 830px
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center bottom
+header
+	width: 100%
+	max-width: 1340px
+	padding: 40px 15px 0
+	margin: 0 auto
+	display: flex
+	justify-content: space-between
+	align-items: center
+.logo
+	height: 60px
+.menu-link:link
+	text-decoration: none
+	text-transform: uppercase
+	color: $white
+	font-family: "Montserrat Medium"
+	transition: ease .3s
+	margin: 0 20px
+.menu-link:visited
+	color: $white
+.menu-link:hover
+	color: $accent
+.lang-menu
+	text-transform: uppercase
+	color: $white
+	font-family: "Montserrat Medium"
+.lang-link:link
+	text-decoration: none
+	color: $white
+	font-family: "Montserrat Medium"
+	transition: ease .3s
+.lang-link:visited
+	color: $white
+.lang-link:hover
+	color: $accent
+.accent-lang
+	color: $accent
+	text-decoration: none
+	font-family: "Montserrat Medium"
+.logo-mobile, .main_menu, .lang-btn-mobile, .mobile-menu
+	display: none
+.home-slide
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	color: $white
+	padding-top: 170px
+	text-align: center
+.slogan1
+	font-family: "Montserrat Light"
+	font-size: 60px
+	margin-bottom: 20px
+h1
+	font-size: 60px
+	font-family: "Montserrat Bold"
+	margin-bottom: 30px
+.slogan2
+	font-size: 16px
+	font-family: "Montserrat Regular"
+.btn:link
+	font-family: "Montserrat Medium"
+	background-color: $accent
+	border-radius: 5px
+	transition: ease .3s
+	margin-top: 40px
+	color: $white
+	text-decoration: none
+	padding: 22px 60px
+.btn:visited
+	color: $white
+	background-color: $accent
+.btn:hover
+	background-color: $accent2
+.images
+	width: 100%
+	max-width: 1400px
+	margin: 0 auto
+	display: flex
+	justify-content: space-around
+	margin-top: -80px
+.row-img
+	width: 406px
+	height: auto
+	border-radius: 5px
+.about
+	width: 100%
+	max-width: 1100px
+	margin: 80px auto
+	padding: 70px 30px
+	background-image: url(../img/about-bg.webp)
+	background-size: contain
+	background-repeat: no-repeat
+	background-position: center top
+	font-family: "Montserrat Medium"
+	text-align: center
+.about-paragraph
+	color: $text
+	font-family: "Montserrat Regular"
+	margin-bottom: 18px
+	line-height: 1.3
+	font-size: 18px
+.about-us
+	font-size: 20px
+	color: $accent
+.partner
+	margin-top: 20px
+	font-size: 42px
+	margin-bottom: 60px
+#services
+	background-image: url(../img/service-img.webp)
+	background-size: contain
+	background-repeat: no-repeat
+	background-position: right top
+	width: 100%
+	max-width: 1920px
+	margin: 0 auto
+	padding: 60px 0
+.service-wrap
+	max-width: 1340px
+	margin: 0 auto
+.service-desc
+	font-family: "Montserrat Regular"
+	color: $text
+	width: 850px
+	max-width: 1400px
+	padding: 125px 80px
+	background-color: $white
+	border-radius: 5px
+.services-header
+	font-family: "Montserrat Medium"
+	color: $black
+	font-size: 42px
+	margin-bottom: 40px
+.service-list-item
+	margin-bottom: 10px
+	position: relative
+	margin-left: 36px
+.service-list-item::before
+	position: absolute
+	content: ''
+	width: 8px
+	height: 8px
+	background-color: $accent
+	border-radius: 5px
+	top: calc( 50% - 4px)
+	left: -20px
+.experience
+	width: 100%
+	max-width: 1920px
+	margin: 120px auto 0
+	background-image: url(../img/truck.webp)
+	background-repeat: no-repeat
+	background-size: cover
+	display: flex
+	justify-content: center
+	background-position: center
+.quote
+	color: $white
+	font-size: 32px
+	font-family: "Montserrat Medium"
+	width: 760px
+	text-align: center
+	padding: 120px 0 240px
+	line-height: 1.4
+#calculation
+	width: 100%
+	max-width: 1140px
+	margin: -110px auto 0
+	background-color: $white
+	border-radius: 5px
+	text-align: center
+.contact-form-wrap
+	width: 80%
+	margin: 0 auto 60px
+.calc-header
+	padding: 60px 0 20px
+	font-size: 42px
+	font-family: "Montserrat Medium"
+.calc-message
+	color: $text
+	font-family: "Montserrat Regular"
+	padding-bottom: 60px
+.contact-form
+	display: flex
+	flex-direction: column
+.calc-row
+	margin-bottom: 20px
+	display: flex
+	justify-content: space-between
+.input
+	padding: 7px 19px
+	border: 1px solid #ccc
+	border-radius: 5px
+	outline: none
+	width: 49%
+	font-family: "Montserrat Regular"
+	font-size: 16px
+	line-height: 1.7
+.textarea
+	margin-bottom: 20px
+	padding: 7px 19px
+	border: 1px solid #ccc
+	border-radius: 5px
+	outline: none
+	font-family: "Montserrat Regular"
+	font-size: 16px
+	line-height: 1.7
+.input:focus, .textarea:focus
+	border: 1px solid $accent
+.submit-btn
+	padding: 22px 60px
+	color: $white
+	background-color: $accent
+	border: none
+	margin: 0 auto
+	cursor: pointer
+	transition: .3s ease
+	border-radius: 5px
+	font-family: "Montserrat Medium"
+	font-size: 16px
+.submit-btn:hover
+	background-color: $accent2
+.textarea::placeholder
+	opacity: 1
+	transition: opacity .3s ease
+.textarea:focus::placeholder
+	opacity: 0
+	transition: opacity .3s ease
+.input::placeholder
+	opacity: 1
+	transition: opacity .3s ease
+.input:focus::placeholder
+	opacity: 0
+	transition: opacity .3s ease
+#contacts
+	background-color: #25272a
+	display: flex
+	flex-direction: column
+	align-items: center
+	color: $white
+	font-family: "Montserrat Regular"
+	text-align: center
+	line-height: 1.3
+.cont-header
+	font-family: "Montserrat Medium"
+	font-size: 42px
+	margin: 80px 0 20px
+.cont-cell
+	display: flex
+	flex-direction: column
+	margin: 0 15px 40px
+.cell-title
+	font-family: "Montserrat Bold"
+	margin-top: 30px
+	text-transform: uppercase
+.cell-body:link
+	margin-top: 10px
+	text-decoration: none
+	color: $white
+	transition: ease .3s
+.cell-body:visited
+	color: $white
+.cell-body:hover
+	color: $accent
+footer
+	background-color: #13171b
+	color: #505357
+	font-family: "Montserrat Regular"
+	padding: 16px 30px
+	font-size: 14px
+.footer-wrap
+	width: 100%
+	max-width: 1400px
+	margin: 0 auto
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+.developer:link
+	color: #505357
+	text-decoration: none
+	transition: ease .3s
+.developer:visited
+	color: #505357
+.developer:hover
+	color: $accent
+.social-icon
+	fill: $white
+	width: 20px
+	height: 20px
+	margin: 0 5px
+
+@media screen and ( max-width: 1400px )
+	.home-slide
+		padding-top: 140px
+	#home
+		height: 780px
+	.images
+		display: none
+	#services
+		padding: 30px 0
+	.service-desc
+		width: 600px
+		padding: 30px 40px
+	.services-header
+		font-size: 38px
+		margin-bottom: 20px
+	.service-list-item
+		margin-bottom: 8px
+		margin-left: 36px
+	.service-list-item::before
+		width: 8px
+		height: 8px
+		top: calc( 50% - 4px)
+		left: -20px
+	.cont-header
+		font-size: 38px
+
+@media screen and ( max-width: 900px )
+	.logo, nav, .lang-menu,
+		display: none	
+	.logo-mobile, .burger-btn, .lang-btn-mobile
+		display: block
+	header
+		align-items: start
+		padding-top: 15px
+		padding-bottom: 5px
+		background-color: $white
+		position: fixed
+		z-index: 5
+		box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25)
+	.logo-mobile, .lang-switch
+		height: 20px
+		width: 20px
+	.lang-wrap
+		position: relative
+	.lang-menu-mobile
+		position: absolute
+		top: 40px
+		right: -9px
+		background-color: $white
+		padding: 2px 10px
+		display: flex
+		flex-direction: column
+		margin-left: -10px
+		border-radius: 5px
+		margin-top: 5px
+	.lang
+		margin: 10px 0
+		text-decoration: none
+		color: $black
+		font-family: "Montserrat Medium"
+		line-height: 1.9
+	.active-lang
+		color: $accent
+		font-family: "Montserrat Bold"
+	.mobile-menu
+		position: relative
+		width: 30px
+		height: 30px
+		display: flex
+		align-items: center
+	.menu-button, .menu-button::before, .menu-button::after
+		display: block
+		background-color: $accent
+		position: absolute
+		height: 3px
+		width: 30px
+		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1)
+		margin-top: -9px
+	.menu-button::before
+		content: ''
+		margin-top: -8px
+	.menu-button::after
+		content: ''
+		margin-top: 8px
+	.menu-button.menu-button-cross::before
+		margin-top: 0px
+		transform: rotate(405deg)
+	.menu-button.menu-button-cross
+		background: rgba(255, 255, 255, 0)
+	.menu-button.menu-button-cross::after
+		margin-top: 0px
+		transform: rotate(-405deg)
+	.lang-menu-mobile
+		display: none
+	.show
+		display: block
+	.main_menu
+		background-color: #fff
+		position: fixed
+		width: 100%
+		text-align: center
+		top: 40px
+		padding: 10px 0
+		z-index: 5
+	.menu-item
+		text-decoration: none
+		text-transform: uppercase
+		font-family: "Montserrat Medium"
+		color: $black
+		padding: 10px 0
+		height: 20px
+		line-height: 3
+	#home
+		height: 550px
+	.slogan1
+		font-size: 48px
+		margin-bottom: 16px
+	h1
+		font-size: 48px
+		margin-bottom: 22px
+	.about
+		margin: 0 auto
+		padding: 70px 30px
+	.about-paragraph
+		margin-bottom: 18px
+		font-size: 16px
+	.partner
+		font-size: 42px
+		margin-bottom: 40px
+	#services
+		background-image: none
+		padding: 0
+	.service-desc
+		background-color: $grey
+		width: 100%
+		padding: 80px 40px
+		border-radius: 0px
+		display: flex
+		flex-direction: column
+		align-items: center
+	.services-header
+		text-align: center
+	.experience
+		margin: 0 auto 0
+	.footer-wrap
+		flex-direction: column
+	.copyright, .author
+		margin: 15px 0
+		text-align: center
+		line-height: 1.4
+
+@media screen and ( max-width: 768px )
+	#home
+		height: 420px
+	.home-slide
+		padding-top: 130px
+	.slogan1
+		font-size: 36px
+		margin-bottom: 10px
+	h1
+		font-size: 36px
+		margin-bottom: 16px
+	.slogan2
+		font-size: 14px
+	.btn:link
+		margin-top: 30px
+		padding: 20px 50px
+	.about
+		padding: 60px 30px
+	.about-paragraph
+		margin-bottom: 18px
+	.about-us
+		font-size: 18px
+	.partner
+		margin-top: 10px
+		font-size: 32px
+		margin-bottom: 20px
+	.service-desc
+		padding: 80px 30px
+	.services-header
+		font-size: 32px
+	.service-list-item
+		margin-bottom: 8px
+		margin-left: 0
+	.service-list-item::before
+		width: 6px
+		height: 6px
+		top: calc( 50% - 3px)
+		left: -16px
+	.contact-form-wrap
+		width: 90%
+	.calc-header
+		font-size: 32px
+	.calc-message
+		padding-bottom: 40px
+		line-height: 1.3
+	.calc-row
+		flex-wrap: wrap
+		.input:nth-child(1)
+			margin-bottom: 20px
+	.input
+		width: 100%
+	.quote
+		font-size: 26px
+		width: 100%
+		padding: 60px 0 180px
+		margin: 0 15px
+	.cont-header
+		font-size: 32px
+
+@media screen and ( max-width: 480px )
+	#home
+		height: 360px
+	.home-slide
+		padding-top: 120px
+	.slogan1
+		font-size: 26px
+		margin-bottom: 10px
+	h1
+		font-size: 26px
+		margin-bottom: 16px
+	.slogan2
+		font-size: 12px
+	.btn:link
+		margin-top: 20px
+		padding: 16px 40px
+		font-size: 14px
+	.partner
+		font-size: 26px
+	.service-desc
+		padding: 80px 20px 80px 40px
+	.services-header
+		font-size: 26px
+	.service-list-item
+		line-height: 1.3
+	.service-list-item::before
+		top: 8px
+		left: -16px
+	#calculation
+		border-radius: 0
+	.contact-form-wrap
+		width: 90%
+	.calc-header
+		font-size: 26px
+	.calc-message
+		padding-bottom: 20px
+	.input
+		padding: 7px 16px
+		font-size: 14px
+		line-height: 1.5
+	.textarea
+		margin-bottom: 20px
+		padding: 7px 16px
+		font-size: 14px
+		line-height: 1.5
+	.submit-btn
+		padding: 16px 40px
+		font-size: 16px
+	.quote
+		font-size: 22px
+		padding: 40px 0 160px
+		line-height: 1.3
+	.cont-header
+		font-size: 26px
